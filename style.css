@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+}
+.box{
+    width: 28.125rem;
+    overflow: hidden;
+    background: white;
+    border-radius: 1rem;
+    margin: 5rem auto;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.5rem 0 2.5rem;
+    align-items: center;
+}
+.title{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.description{
+    text-align: center;
+    width: 20rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 150%;
+    color: hsl(224, 23%, 55%);
+}
+.payment{
+    background: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 23.125rem;
+}
+.second-box{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.plan{
+    align-self: center;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.anual{
+    font-weight: 900;
+}
+.price{
+    margin-top: 0.5rem;
+    color: hsl(224, 23%, 55%);
+}
+.change{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 7rem;
+    align-self: center;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+.change:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.order{
+    margin-top: 1rem;
+    width: 100%;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    border: none;
+    font-weight: 900;
+}
+.order:hover{
+    cursor: pointer;
+    background: hsl(245, 75%, 70%);
+}
+.cancel-order{
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    background: white;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+}
+.cancel-order:hover{
+    cursor: pointer;
+    color: hsl(224, 23%, 20%);
+}
